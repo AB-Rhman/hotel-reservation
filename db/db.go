@@ -5,3 +5,10 @@ const (
 	DBNAME     = "hotel-reservation"
 	TestDBName = "hotel-reservation-test"
 )
+
+
+type Store struct {
+	User UserStore
+	Hotel HotelStore
+	Room RoomStore
+}
