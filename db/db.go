@@ -6,9 +6,8 @@ const (
 	TestDBName = "hotel-reservation-test"
 )
 
-
 type Store struct {
-	User UserStore
+	User  UserStore
 	Hotel HotelStore
-	Room RoomStore
+	Room  RoomStore
 }

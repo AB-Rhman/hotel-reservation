@@ -2,6 +2,7 @@ package api
 
 import (
 	"errors"
+
 	"github.com/AB-Rhman/hotel-reservation/db"
 	"github.com/AB-Rhman/hotel-reservation/types"
 	"github.com/gofiber/fiber/v2"
